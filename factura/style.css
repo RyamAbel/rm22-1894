@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+  color: #1f1f1f;
+}
+.nav__logo-icon {
+  width: 25px; 
+  height: auto; 
+  position: absolute; 
+  transform: translateY(-150%); 
+  margin-left: 10px; 
+}
+
+.nav__logo-wrapper {
+  position: relative; 
+  display: inline-block; 
+}
+
+.nav__logo {
+  position: fixed; 
+  top: 50px; 
+  left: 10px; 
+  z-index: 1000; 
+  font-size: 32px; 
+  font-family: Arial, sans-serif; 
+  font-weight: bold; 
+}
+
+body {
+  background-color: #f1f1f1; 
+}
+
+.container {
+  padding: 20px 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.receipt {
+  width: 300px;
+  height: 80vh; 
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 5px 5px 19px #ccc;
+  padding: 10px;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px;
+}
+
+.centerItem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.survey {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.feedback .break {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.returnButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "VT323", monospace;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.returnButton:hover {
+  background-color: #ff1648;
+}
